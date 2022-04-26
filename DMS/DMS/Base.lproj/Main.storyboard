@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iCd-k8-6lV">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iCd-k8-6lV">
                                 <rect key="frame" x="87" y="488" width="240" height="0.0"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="II1-sI-ug9"/>
@@ -24,7 +24,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qug-r1-TJp">
-                                <rect key="frame" x="162" y="612" width="90" height="35"/>
+                                <rect key="frame" x="162" y="638" width="90" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="8iX-9w-TEr"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="ChG-1l-k3o"/>
@@ -36,7 +36,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Page" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M8B-Pm-mWU">
-                                <rect key="frame" x="132" y="388" width="150" height="174"/>
+                                <rect key="frame" x="132" y="388" width="150" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="6Ou-3f-hra"/>
                                     <constraint firstAttribute="height" constant="40" id="SZX-3N-3TD"/>
@@ -77,7 +77,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Page" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5B-SZ-LJc">
-                                <rect key="frame" x="107" y="344" width="200" height="36"/>
+                                <rect key="frame" x="107" y="344" width="200" height="218"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="0aE-JR-dgh"/>
                                     <constraint firstAttribute="height" constant="40" id="OuT-YJ-ar6"/>
