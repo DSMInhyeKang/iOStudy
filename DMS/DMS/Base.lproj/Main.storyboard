@@ -77,7 +77,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Page" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5B-SZ-LJc">
-                                <rect key="frame" x="107" y="344" width="200" height="218"/>
+                                <rect key="frame" x="107" y="344" width="200" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="0aE-JR-dgh"/>
                                     <constraint firstAttribute="height" constant="40" id="OuT-YJ-ar6"/>
