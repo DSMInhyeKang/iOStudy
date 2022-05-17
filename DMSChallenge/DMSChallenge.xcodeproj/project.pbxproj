@@ -7,35 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F55014E2831EAE1004EDF87 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F55014D2831EAE1004EDF87 /* TableViewController.swift */; };
-		3F55015628323541004EDF87 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F55015528323541004EDF87 /* Memo.swift */; };
-		3F55015C2833133F004EDF87 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F55015B2833133F004EDF87 /* CustomTableViewCell.swift */; };
-		3F9FD6992826595F00B83CE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FD6982826595F00B83CE6 /* AppDelegate.swift */; };
-		3F9FD69B2826595F00B83CE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FD69A2826595F00B83CE6 /* SceneDelegate.swift */; };
-		3F9FD69D2826595F00B83CE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FD69C2826595F00B83CE6 /* ViewController.swift */; };
-		3F9FD6A02826595F00B83CE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9FD69E2826595F00B83CE6 /* Main.storyboard */; };
-		3F9FD6A22826596000B83CE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9FD6A12826596000B83CE6 /* Assets.xcassets */; };
-		3F9FD6A52826596000B83CE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9FD6A32826596000B83CE6 /* LaunchScreen.storyboard */; };
-		3FBEAE87282E6AF2005EC344 /* prfimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEAE86282E6AF2005EC344 /* prfimage.png */; };
+		3F03FFB8283395F000E2BC6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F03FFB7283395F000E2BC6B /* AppDelegate.swift */; };
+		3F03FFBA283395F000E2BC6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F03FFB9283395F000E2BC6B /* SceneDelegate.swift */; };
+		3F03FFBC283395F000E2BC6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F03FFBB283395F000E2BC6B /* ViewController.swift */; };
+		3F03FFBF283395F000E2BC6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F03FFBD283395F000E2BC6B /* Main.storyboard */; };
+		3F03FFC1283395F100E2BC6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F03FFC0283395F100E2BC6B /* Assets.xcassets */; };
+		3F03FFC4283395F100E2BC6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F03FFC2283395F100E2BC6B /* LaunchScreen.storyboard */; };
+		3F03FFCC2833B63200E2BC6B /* dms_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F03FFCB2833B63200E2BC6B /* dms_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F55014D2831EAE1004EDF87 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		3F55015528323541004EDF87 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
-		3F55015B2833133F004EDF87 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
-		3F9FD6952826595F00B83CE6 /* BlogUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F9FD6982826595F00B83CE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F9FD69A2826595F00B83CE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F9FD69C2826595F00B83CE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3F9FD69F2826595F00B83CE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3F9FD6A12826596000B83CE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3F9FD6A42826596000B83CE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3F9FD6A62826596000B83CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FBEAE86282E6AF2005EC344 /* prfimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prfimage.png; sourceTree = "<group>"; };
+		3F03FFB4283395F000E2BC6B /* DMSChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMSChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F03FFB7283395F000E2BC6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F03FFB9283395F000E2BC6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F03FFBB283395F000E2BC6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F03FFBE283395F000E2BC6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F03FFC0283395F100E2BC6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F03FFC3283395F100E2BC6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F03FFC5283395F100E2BC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F03FFCB2833B63200E2BC6B /* dms_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dms_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F9FD6922826595F00B83CE6 /* Frameworks */ = {
+		3F03FFB1283395F000E2BC6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,76 +39,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F9FD68C2826595F00B83CE6 = {
+		3F03FFAB283395F000E2BC6B = {
 			isa = PBXGroup;
 			children = (
-				3F9FD6972826595F00B83CE6 /* BlogUI */,
-				3F9FD6962826595F00B83CE6 /* Products */,
+				3F03FFB6283395F000E2BC6B /* DMSChallenge */,
+				3F03FFB5283395F000E2BC6B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3F9FD6962826595F00B83CE6 /* Products */ = {
+		3F03FFB5283395F000E2BC6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F9FD6952826595F00B83CE6 /* BlogUI.app */,
+				3F03FFB4283395F000E2BC6B /* DMSChallenge.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F9FD6972826595F00B83CE6 /* BlogUI */ = {
+		3F03FFB6283395F000E2BC6B /* DMSChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				3F9FD6982826595F00B83CE6 /* AppDelegate.swift */,
-				3F9FD69A2826595F00B83CE6 /* SceneDelegate.swift */,
-				3F9FD69C2826595F00B83CE6 /* ViewController.swift */,
-				3F55014D2831EAE1004EDF87 /* TableViewController.swift */,
-				3F55015528323541004EDF87 /* Memo.swift */,
-				3F55015B2833133F004EDF87 /* CustomTableViewCell.swift */,
-				3FBEAE86282E6AF2005EC344 /* prfimage.png */,
-				3F9FD69E2826595F00B83CE6 /* Main.storyboard */,
-				3F9FD6A12826596000B83CE6 /* Assets.xcassets */,
-				3F9FD6A32826596000B83CE6 /* LaunchScreen.storyboard */,
-				3F9FD6A62826596000B83CE6 /* Info.plist */,
+				3F03FFB7283395F000E2BC6B /* AppDelegate.swift */,
+				3F03FFB9283395F000E2BC6B /* SceneDelegate.swift */,
+				3F03FFBB283395F000E2BC6B /* ViewController.swift */,
+				3F03FFBD283395F000E2BC6B /* Main.storyboard */,
+				3F03FFC0283395F100E2BC6B /* Assets.xcassets */,
+				3F03FFCB2833B63200E2BC6B /* dms_logo.png */,
+				3F03FFC2283395F100E2BC6B /* LaunchScreen.storyboard */,
+				3F03FFC5283395F100E2BC6B /* Info.plist */,
 			);
-			path = BlogUI;
+			path = DMSChallenge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F9FD6942826595F00B83CE6 /* BlogUI */ = {
+		3F03FFB3283395F000E2BC6B /* DMSChallenge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F9FD6A92826596000B83CE6 /* Build configuration list for PBXNativeTarget "BlogUI" */;
+			buildConfigurationList = 3F03FFC8283395F100E2BC6B /* Build configuration list for PBXNativeTarget "DMSChallenge" */;
 			buildPhases = (
-				3F9FD6912826595F00B83CE6 /* Sources */,
-				3F9FD6922826595F00B83CE6 /* Frameworks */,
-				3F9FD6932826595F00B83CE6 /* Resources */,
+				3F03FFB0283395F000E2BC6B /* Sources */,
+				3F03FFB1283395F000E2BC6B /* Frameworks */,
+				3F03FFB2283395F000E2BC6B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BlogUI;
-			productName = BlogUI;
-			productReference = 3F9FD6952826595F00B83CE6 /* BlogUI.app */;
+			name = DMSChallenge;
+			productName = DMSChallenge;
+			productReference = 3F03FFB4283395F000E2BC6B /* DMSChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3F9FD68D2826595F00B83CE6 /* Project object */ = {
+		3F03FFAC283395F000E2BC6B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					3F9FD6942826595F00B83CE6 = {
+					3F03FFB3283395F000E2BC6B = {
 						CreatedOnToolsVersion = 13.3;
 					};
 				};
 			};
-			buildConfigurationList = 3F9FD6902826595F00B83CE6 /* Build configuration list for PBXProject "BlogUI" */;
+			buildConfigurationList = 3F03FFAF283395F000E2BC6B /* Build configuration list for PBXProject "DMSChallenge" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,59 +113,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 3F9FD68C2826595F00B83CE6;
-			productRefGroup = 3F9FD6962826595F00B83CE6 /* Products */;
+			mainGroup = 3F03FFAB283395F000E2BC6B;
+			productRefGroup = 3F03FFB5283395F000E2BC6B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F9FD6942826595F00B83CE6 /* BlogUI */,
+				3F03FFB3283395F000E2BC6B /* DMSChallenge */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3F9FD6932826595F00B83CE6 /* Resources */ = {
+		3F03FFB2283395F000E2BC6B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F9FD6A52826596000B83CE6 /* LaunchScreen.storyboard in Resources */,
-				3F9FD6A22826596000B83CE6 /* Assets.xcassets in Resources */,
-				3F9FD6A02826595F00B83CE6 /* Main.storyboard in Resources */,
-				3FBEAE87282E6AF2005EC344 /* prfimage.png in Resources */,
+				3F03FFC4283395F100E2BC6B /* LaunchScreen.storyboard in Resources */,
+				3F03FFC1283395F100E2BC6B /* Assets.xcassets in Resources */,
+				3F03FFBF283395F000E2BC6B /* Main.storyboard in Resources */,
+				3F03FFCC2833B63200E2BC6B /* dms_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3F9FD6912826595F00B83CE6 /* Sources */ = {
+		3F03FFB0283395F000E2BC6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F55015C2833133F004EDF87 /* CustomTableViewCell.swift in Sources */,
-				3F9FD69D2826595F00B83CE6 /* ViewController.swift in Sources */,
-				3F9FD6992826595F00B83CE6 /* AppDelegate.swift in Sources */,
-				3F55015628323541004EDF87 /* Memo.swift in Sources */,
-				3F55014E2831EAE1004EDF87 /* TableViewController.swift in Sources */,
-				3F9FD69B2826595F00B83CE6 /* SceneDelegate.swift in Sources */,
+				3F03FFBC283395F000E2BC6B /* ViewController.swift in Sources */,
+				3F03FFB8283395F000E2BC6B /* AppDelegate.swift in Sources */,
+				3F03FFBA283395F000E2BC6B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3F9FD69E2826595F00B83CE6 /* Main.storyboard */ = {
+		3F03FFBD283395F000E2BC6B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F9FD69F2826595F00B83CE6 /* Base */,
+				3F03FFBE283395F000E2BC6B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3F9FD6A32826596000B83CE6 /* LaunchScreen.storyboard */ = {
+		3F03FFC2283395F100E2BC6B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F9FD6A42826596000B83CE6 /* Base */,
+				3F03FFC3283395F100E2BC6B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -182,7 +170,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3F9FD6A72826596000B83CE6 /* Debug */ = {
+		3F03FFC6283395F100E2BC6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		3F9FD6A82826596000B83CE6 /* Release */ = {
+		3F03FFC7283395F100E2BC6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,7 +284,7 @@
 			};
 			name = Release;
 		};
-		3F9FD6AA2826596000B83CE6 /* Debug */ = {
+		3F03FFC9283395F100E2BC6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -304,11 +292,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BlogUI/Info.plist;
+				INFOPLIST_FILE = DMSChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -317,7 +305,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.InHyeKang.BlogUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.InHyeKang.DMSChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,7 +313,7 @@
 			};
 			name = Debug;
 		};
-		3F9FD6AB2826596000B83CE6 /* Release */ = {
+		3F03FFCA283395F100E2BC6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -333,11 +321,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BlogUI/Info.plist;
+				INFOPLIST_FILE = DMSChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -346,7 +334,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.InHyeKang.BlogUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.InHyeKang.DMSChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -357,25 +345,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F9FD6902826595F00B83CE6 /* Build configuration list for PBXProject "BlogUI" */ = {
+		3F03FFAF283395F000E2BC6B /* Build configuration list for PBXProject "DMSChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F9FD6A72826596000B83CE6 /* Debug */,
-				3F9FD6A82826596000B83CE6 /* Release */,
+				3F03FFC6283395F100E2BC6B /* Debug */,
+				3F03FFC7283395F100E2BC6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F9FD6A92826596000B83CE6 /* Build configuration list for PBXNativeTarget "BlogUI" */ = {
+		3F03FFC8283395F100E2BC6B /* Build configuration list for PBXNativeTarget "DMSChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F9FD6AA2826596000B83CE6 /* Debug */,
-				3F9FD6AB2826596000B83CE6 /* Release */,
+				3F03FFC9283395F100E2BC6B /* Debug */,
+				3F03FFCA283395F100E2BC6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3F9FD68D2826595F00B83CE6 /* Project object */;
+	rootObject = 3F03FFAC283395F000E2BC6B /* Project object */;
 }
