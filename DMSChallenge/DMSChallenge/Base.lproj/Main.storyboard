@@ -2,29 +2,12 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="A9a-hq-3Jj">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DMSChallenge" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="NXg-SB-8RA"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="151" y="165"/>
-        </scene>
         <!--신청-->
         <scene sceneID="2iK-Yn-skB">
             <objects>
@@ -32,20 +15,48 @@
                     <view key="view" contentMode="scaleToFill" id="C3v-eU-Ok4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="신청" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k4h-7V-05Z">
+                                <rect key="frame" x="50" y="93" width="44" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                <color key="textColor" systemColor="systemTealColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="연장 신청, 잔류 신청, 외출 신청, 기상음악 신청을 할 수 있습니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nn9-ar-dHS">
+                                <rect key="frame" x="50" y="138" width="314" height="33.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2rC-lA-mWc">
+                                <rect key="frame" x="50" y="191.5" width="67" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="EuS-AQ-6vk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2rC-lA-mWc" firstAttribute="leading" secondItem="EuS-AQ-6vk" secondAttribute="leading" constant="50" id="FZb-V7-rUO"/>
+                            <constraint firstItem="nn9-ar-dHS" firstAttribute="leading" secondItem="EuS-AQ-6vk" secondAttribute="leading" constant="50" id="ede-it-23H"/>
+                            <constraint firstItem="EuS-AQ-6vk" firstAttribute="trailing" secondItem="nn9-ar-dHS" secondAttribute="trailing" constant="50" id="f8r-wn-7I4"/>
+                            <constraint firstItem="nn9-ar-dHS" firstAttribute="top" secondItem="k4h-7V-05Z" secondAttribute="bottom" constant="15" id="lqR-s9-Zro"/>
+                            <constraint firstItem="2rC-lA-mWc" firstAttribute="top" secondItem="nn9-ar-dHS" secondAttribute="bottom" constant="20" id="plO-Fc-Cs3"/>
+                            <constraint firstItem="k4h-7V-05Z" firstAttribute="leading" secondItem="EuS-AQ-6vk" secondAttribute="leading" constant="50" id="rMi-hh-rE6"/>
+                            <constraint firstItem="k4h-7V-05Z" firstAttribute="top" secondItem="EuS-AQ-6vk" secondAttribute="top" constant="5" id="uqy-85-uAb"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="신청" image="checkmark" catalog="system" selectedImage="checkmark" id="VvR-eu-Aj5"/>
                     <navigationItem key="navigationItem" id="Cc1-AY-1JC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9cc-vN-PcY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2822" y="-609"/>
+            <point key="canvasLocation" x="2821.739130434783" y="-609.375"/>
         </scene>
-        <!--Item 4-->
+        <!--마이페이지-->
         <scene sceneID="jNo-P3-yKi">
             <objects>
-                <viewController id="OES-dd-umA" userLabel="Item 4" sceneMemberID="viewController">
+                <viewController title="마이페이지" id="OES-dd-umA" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jvh-oY-lr1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -183,12 +194,11 @@
         <!--Tab Bar Controller-->
         <scene sceneID="rKb-J6-CcQ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="CGO-Qe-yhg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tabBarController id="A9a-hq-3Jj" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="seQ-U3-Pga">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="systemCyanColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="EEZ-y6-OJc" kind="relationship" relationship="viewControllers" id="nsQ-wz-rpS"/>
@@ -197,13 +207,14 @@
                         <segue destination="gil-KW-4Ea" kind="relationship" relationship="viewControllers" id="q5h-6H-yxR"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CGO-Qe-yhg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="943" y="166"/>
         </scene>
-        <!--Item 3-->
+        <!--공지-->
         <scene sceneID="0We-3M-Wc8">
             <objects>
-                <viewController id="ub5-fw-E0i" userLabel="Item 3" sceneMemberID="viewController">
+                <viewController title="공지" id="ub5-fw-E0i" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IUj-dx-DA6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -217,10 +228,10 @@
             </objects>
             <point key="canvasLocation" x="2822" y="55"/>
         </scene>
-        <!--Item-->
+        <!--식단navigation-->
         <scene sceneID="Oac-lo-nDf">
             <objects>
-                <navigationController id="EEZ-y6-OJc" sceneMemberID="viewController">
+                <navigationController id="EEZ-y6-OJc" userLabel="식단navigation" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="qST-WJ-635"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="43M-Cb-u0s">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -234,10 +245,10 @@
             </objects>
             <point key="canvasLocation" x="1725" y="-1266"/>
         </scene>
-        <!--Item-->
+        <!--신청navigation-->
         <scene sceneID="d2K-ax-FS1">
             <objects>
-                <navigationController id="GMU-o0-IKx" sceneMemberID="viewController">
+                <navigationController id="GMU-o0-IKx" userLabel="신청navigation" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="UQG-E6-81Y"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zuS-Z9-7tN">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -251,10 +262,10 @@
             </objects>
             <point key="canvasLocation" x="1725" y="-609"/>
         </scene>
-        <!--Item-->
+        <!--공지navigation-->
         <scene sceneID="Uqu-vG-2sE">
             <objects>
-                <navigationController id="hHV-Ni-IfR" sceneMemberID="viewController">
+                <navigationController id="hHV-Ni-IfR" userLabel="공지navigation" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="vWf-FL-HJp"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="vs5-Xa-f57">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -268,10 +279,10 @@
             </objects>
             <point key="canvasLocation" x="1725" y="55"/>
         </scene>
-        <!--Item-->
+        <!--마이페이지navigation-->
         <scene sceneID="RWN-pX-M8K">
             <objects>
-                <navigationController id="gil-KW-4Ea" sceneMemberID="viewController">
+                <navigationController id="gil-KW-4Ea" userLabel="마이페이지navigation" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="8eX-89-hBg"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZRD-RW-c97">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -299,6 +310,9 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemCyanColor">
+            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
