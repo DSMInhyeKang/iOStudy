@@ -14,6 +14,7 @@
 		3F03FFC1283395F100E2BC6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F03FFC0283395F100E2BC6B /* Assets.xcassets */; };
 		3F03FFC4283395F100E2BC6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F03FFC2283395F100E2BC6B /* LaunchScreen.storyboard */; };
 		3F03FFCC2833B63200E2BC6B /* dms_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F03FFCB2833B63200E2BC6B /* dms_logo.png */; };
+		3F1D26F128349A7B0039203F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D26F028349A7B0039203F /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3F03FFC3283395F100E2BC6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F03FFC5283395F100E2BC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F03FFCB2833B63200E2BC6B /* dms_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dms_logo.png; sourceTree = "<group>"; };
+		3F1D26F028349A7B0039203F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				3F03FFB9283395F000E2BC6B /* SceneDelegate.swift */,
 				3F03FFBB283395F000E2BC6B /* ViewController.swift */,
 				3F03FFBD283395F000E2BC6B /* Main.storyboard */,
+				3F1D26F028349A7B0039203F /* MenuViewController.swift */,
 				3F03FFC0283395F100E2BC6B /* Assets.xcassets */,
 				3F03FFCB2833B63200E2BC6B /* dms_logo.png */,
 				3F03FFC2283395F100E2BC6B /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				3F03FFBC283395F000E2BC6B /* ViewController.swift in Sources */,
 				3F03FFB8283395F000E2BC6B /* AppDelegate.swift in Sources */,
 				3F03FFBA283395F000E2BC6B /* SceneDelegate.swift in Sources */,
+				3F1D26F128349A7B0039203F /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +295,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8B7L582Q4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DMSChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -320,6 +325,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8B7L582Q4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DMSChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
