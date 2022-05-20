@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,19 +18,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="신청" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k4h-7V-05Z">
-                                <rect key="frame" x="50" y="93" width="44" height="30"/>
+                                <rect key="frame" x="40" y="88" width="44" height="30"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
                                 <color key="textColor" systemColor="systemTealColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="연장 신청, 잔류 신청, 외출 신청, 기상음악 신청을 할 수 있습니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nn9-ar-dHS">
-                                <rect key="frame" x="50" y="138" width="314" height="36"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="15"/>
+                                <rect key="frame" x="40" y="133" width="344" height="38.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="extensionbtn" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2rC-lA-mWc">
-                                <rect key="frame" x="30" y="199" width="354" height="129.5"/>
+                                <rect key="frame" x="30" y="201.5" width="354" height="129.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="연장 신청" subtitle="학과시간 이후에 연장학습을 할 수 있습니다." titlePadding="10" cornerStyle="medium" titleAlignment="leading">
                                     <backgroundConfiguration key="background">
@@ -41,8 +42,8 @@
                                     <color key="baseForegroundColor" systemColor="systemTealColor"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lFM-1q-tVh">
-                                <rect key="frame" x="30" y="348.5" width="354" height="129"/>
+                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="remainingbtn" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lFM-1q-tVh">
+                                <rect key="frame" x="30" y="351" width="354" height="129"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="잔류 신청" subtitle="금요일부터 일요일 저녁까지의 상태를 신청합니다." titlePadding="10" cornerStyle="medium" titleAlignment="leading">
                                     <backgroundConfiguration key="background">
@@ -54,8 +55,8 @@
                                     <color key="baseForegroundColor" systemColor="systemTealColor"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbU-sS-Q60">
-                                <rect key="frame" x="30" y="502.5" width="354" height="129.5"/>
+                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="mealsbtn" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbU-sS-Q60">
+                                <rect key="frame" x="30" y="500" width="354" height="129.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="주말 급식 신청" subtitle="주말 급식을 신청할 수 있습니다." titlePadding="10" cornerStyle="medium" titleAlignment="leading">
                                     <backgroundConfiguration key="background">
@@ -67,8 +68,8 @@
                                     <color key="baseForegroundColor" systemColor="systemTealColor"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVN-T8-ZZJ">
-                                <rect key="frame" x="30" y="657" width="354" height="129.5"/>
+                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="outingbtn" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVN-T8-ZZJ">
+                                <rect key="frame" x="30" y="649.5" width="354" height="129.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="외출 신청" subtitle="외출신청서를 작성하여 외출할 수 있습니다." titlePadding="10" cornerStyle="medium" titleAlignment="leading">
                                     <backgroundConfiguration key="background">
@@ -87,18 +88,18 @@
                             <constraint firstItem="2rC-lA-mWc" firstAttribute="leading" secondItem="EuS-AQ-6vk" secondAttribute="leading" constant="30" id="FZb-V7-rUO"/>
                             <constraint firstItem="lFM-1q-tVh" firstAttribute="leading" secondItem="EuS-AQ-6vk" secondAttribute="leading" constant="30" id="GpE-iV-gMe"/>
                             <constraint firstItem="EuS-AQ-6vk" firstAttribute="trailing" secondItem="lVN-T8-ZZJ" secondAttribute="trailing" constant="30" id="HwU-2k-gpL"/>
-                            <constraint firstItem="cbU-sS-Q60" firstAttribute="top" secondItem="lFM-1q-tVh" secondAttribute="bottom" constant="25" id="OoE-rh-x5R"/>
+                            <constraint firstItem="cbU-sS-Q60" firstAttribute="top" secondItem="lFM-1q-tVh" secondAttribute="bottom" constant="20" id="OoE-rh-x5R"/>
                             <constraint firstItem="lFM-1q-tVh" firstAttribute="top" secondItem="2rC-lA-mWc" secondAttribute="bottom" constant="20" id="Rr2-fJ-564"/>
                             <constraint firstItem="EuS-AQ-6vk" firstAttribute="trailing" secondItem="2rC-lA-mWc" secondAttribute="trailing" constant="30" id="cSq-eX-lPi"/>
-                            <constraint firstItem="nn9-ar-dHS" firstAttribute="leading" secondItem="EuS-AQ-6vk" secondAttribute="leading" constant="50" id="ede-it-23H"/>
-                            <constraint firstItem="EuS-AQ-6vk" firstAttribute="trailing" secondItem="nn9-ar-dHS" secondAttribute="trailing" constant="50" id="f8r-wn-7I4"/>
+                            <constraint firstItem="nn9-ar-dHS" firstAttribute="leading" secondItem="EuS-AQ-6vk" secondAttribute="leading" constant="40" id="ede-it-23H"/>
+                            <constraint firstItem="EuS-AQ-6vk" firstAttribute="trailing" secondItem="nn9-ar-dHS" secondAttribute="trailing" constant="30" id="f8r-wn-7I4"/>
                             <constraint firstItem="lVN-T8-ZZJ" firstAttribute="leading" secondItem="EuS-AQ-6vk" secondAttribute="leading" constant="30" id="kq5-TU-bc3"/>
                             <constraint firstItem="nn9-ar-dHS" firstAttribute="top" secondItem="k4h-7V-05Z" secondAttribute="bottom" constant="15" id="lqR-s9-Zro"/>
-                            <constraint firstItem="2rC-lA-mWc" firstAttribute="top" secondItem="nn9-ar-dHS" secondAttribute="bottom" constant="25" id="plO-Fc-Cs3"/>
-                            <constraint firstItem="k4h-7V-05Z" firstAttribute="leading" secondItem="EuS-AQ-6vk" secondAttribute="leading" constant="50" id="rMi-hh-rE6"/>
-                            <constraint firstItem="lVN-T8-ZZJ" firstAttribute="top" secondItem="cbU-sS-Q60" secondAttribute="bottom" constant="25" id="s8c-ts-IrW"/>
+                            <constraint firstItem="2rC-lA-mWc" firstAttribute="top" secondItem="nn9-ar-dHS" secondAttribute="bottom" constant="30" id="plO-Fc-Cs3"/>
+                            <constraint firstItem="k4h-7V-05Z" firstAttribute="leading" secondItem="EuS-AQ-6vk" secondAttribute="leading" constant="40" id="rMi-hh-rE6"/>
+                            <constraint firstItem="lVN-T8-ZZJ" firstAttribute="top" secondItem="cbU-sS-Q60" secondAttribute="bottom" constant="20" id="s8c-ts-IrW"/>
                             <constraint firstItem="cbU-sS-Q60" firstAttribute="leading" secondItem="EuS-AQ-6vk" secondAttribute="leading" constant="30" id="sId-9D-dod"/>
-                            <constraint firstItem="k4h-7V-05Z" firstAttribute="top" secondItem="EuS-AQ-6vk" secondAttribute="top" constant="5" id="uqy-85-uAb"/>
+                            <constraint firstItem="k4h-7V-05Z" firstAttribute="top" secondItem="EuS-AQ-6vk" secondAttribute="top" id="uqy-85-uAb"/>
                             <constraint firstItem="EuS-AQ-6vk" firstAttribute="trailing" secondItem="cbU-sS-Q60" secondAttribute="trailing" constant="30" id="w6J-P7-wSJ"/>
                             <constraint firstItem="EuS-AQ-6vk" firstAttribute="trailing" secondItem="lFM-1q-tVh" secondAttribute="trailing" constant="30" id="wyN-PS-vaU"/>
                         </constraints>
@@ -117,15 +118,83 @@
                     <view key="view" contentMode="scaleToFill" id="jvh-oY-lr1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kca-9h-PUC">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="263"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="nameLabel" text="강인혜" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJR-4O-IvV">
+                                        <rect key="frame" x="25" y="55" width="65" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="numberLabel" text="1102" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHJ-Cj-lpP">
+                                        <rect key="frame" x="25" y="85" width="36" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.51372551919999998" green="0.7254902124" blue="0.73333334920000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="faultbtn" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rno-T1-2Xm">
+                                        <rect key="frame" x="60" y="130" width="99" height="57"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" imagePlacement="top" title="시설 고장 신고" imagePadding="10" titleAlignment="center">
+                                            <imageReference key="image" image="exclamationmark.circle.fill" catalog="system" symbolScale="large"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" weight="bold"/>
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="13"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="surveybtn" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Geu-KC-3HT">
+                                        <rect key="frame" x="174" y="130" width="69" height="57"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" imagePlacement="top" title="설문조사" imagePadding="10" titleAlignment="center">
+                                            <imageReference key="image" image="pencil" catalog="system" symbolScale="large"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" weight="black"/>
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="13"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="reportbtn" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xd4-vt-KM3">
+                                        <rect key="frame" x="263" y="130" width="73" height="57"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="ladybug.fill" catalog="system" imagePlacement="top" title="버그 신고" imagePadding="10">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" weight="black"/>
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="13"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.31764706970000001" green="0.66666668650000005" blue="0.6784313917" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstItem="xd4-vt-KM3" firstAttribute="top" secondItem="Kca-9h-PUC" secondAttribute="top" constant="130" id="526-zz-I0j"/>
+                                    <constraint firstItem="xd4-vt-KM3" firstAttribute="leading" secondItem="Geu-KC-3HT" secondAttribute="trailing" constant="20" id="8Ag-rM-ihS"/>
+                                    <constraint firstItem="OJR-4O-IvV" firstAttribute="leading" secondItem="Kca-9h-PUC" secondAttribute="leading" constant="25" id="9Uv-oj-Ixy"/>
+                                    <constraint firstItem="Geu-KC-3HT" firstAttribute="leading" secondItem="Rno-T1-2Xm" secondAttribute="trailing" constant="15" id="RZE-h6-Zf7"/>
+                                    <constraint firstItem="Geu-KC-3HT" firstAttribute="top" secondItem="Kca-9h-PUC" secondAttribute="top" constant="130" id="cuq-9i-Ohc"/>
+                                    <constraint firstItem="OJR-4O-IvV" firstAttribute="top" secondItem="Kca-9h-PUC" secondAttribute="top" constant="55" id="eqb-hE-8vJ"/>
+                                    <constraint firstItem="Rno-T1-2Xm" firstAttribute="top" secondItem="OJR-4O-IvV" secondAttribute="bottom" constant="45" id="guu-2Y-Tlc"/>
+                                    <constraint firstItem="MHJ-Cj-lpP" firstAttribute="leading" secondItem="Kca-9h-PUC" secondAttribute="leading" constant="25" id="m9v-xq-UAZ"/>
+                                    <constraint firstItem="MHJ-Cj-lpP" firstAttribute="top" secondItem="OJR-4O-IvV" secondAttribute="bottom" id="nm1-PR-bc3"/>
+                                    <constraint firstItem="Rno-T1-2Xm" firstAttribute="leading" secondItem="Kca-9h-PUC" secondAttribute="leading" constant="60" id="xzN-tT-Ioh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="5e0-aS-uYo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Kca-9h-PUC" firstAttribute="trailing" secondItem="5e0-aS-uYo" secondAttribute="trailing" id="0sY-vB-HkZ"/>
+                            <constraint firstItem="Kca-9h-PUC" firstAttribute="top" secondItem="jvh-oY-lr1" secondAttribute="top" id="1aF-bh-NUc"/>
+                            <constraint firstItem="5e0-aS-uYo" firstAttribute="bottom" secondItem="Kca-9h-PUC" secondAttribute="bottom" constant="550" id="74j-Ef-gc9"/>
+                            <constraint firstItem="Kca-9h-PUC" firstAttribute="leading" secondItem="5e0-aS-uYo" secondAttribute="leading" id="zST-uE-PSy"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="마이페이지" image="person.fill" catalog="system" selectedImage="person.fill" id="O5r-Ux-JFU"/>
                     <navigationItem key="navigationItem" id="408-bD-gw5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkw-Xs-TDB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2822" y="718"/>
+            <point key="canvasLocation" x="2821.739130434783" y="717.85714285714278"/>
         </scene>
         <!--식단표-->
         <scene sceneID="com-AP-aM5">
@@ -269,15 +338,88 @@
                     <view key="view" contentMode="scaleToFill" id="IUj-dx-DA6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="대마고 기숙사 안내사항" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k9Y-el-oeU">
+                                <rect key="frame" x="40" y="88" width="94" height="90"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                <color key="textColor" systemColor="systemTealColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DMS는 대덕 소프트웨어 마이스터고등학교 기숙사 생활에 필요한 유용한 정보를 제공합니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4sq-PH-kj2">
+                                <rect key="frame" x="40" y="193" width="324" height="41"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="notificationbtn" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyn-1k-ofe">
+                                <rect key="frame" x="30" y="264" width="354" height="109.5"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" imagePlacement="trailing" title="공지사항" subtitle="사감부에서 게시한 공지사항을 열람합니다." imagePadding="40" titlePadding="10" cornerStyle="medium" titleAlignment="leading">
+                                    <imageReference key="image" image="arrowtriangle.down.circle.fill" catalog="system" symbolScale="large"/>
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.98823523520000001" green="0.99215686319999996" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="18"/>
+                                    <fontDescription key="subtitleFontDescription" type="system" weight="thin" pointSize="15"/>
+                                    <directionalEdgeInsets key="contentInsets" top="30" leading="-10" bottom="30" trailing="0.0"/>
+                                    <color key="baseForegroundColor" systemColor="systemTealColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="rulesbtn" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sv9-sz-AOp">
+                                <rect key="frame" x="30" y="413.5" width="354" height="109.5"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" imagePlacement="trailing" title="기숙사 규정" subtitle="사감부에서 게시한 규정을 열람합니다." imagePadding="60" titlePadding="10" cornerStyle="medium" titleAlignment="leading">
+                                    <imageReference key="image" image="arrowtriangle.down.circle.fill" catalog="system" symbolScale="large"/>
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.98823523520000001" green="0.99215686319999996" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="18"/>
+                                    <fontDescription key="subtitleFontDescription" type="system" weight="thin" pointSize="15"/>
+                                    <directionalEdgeInsets key="contentInsets" top="30" leading="-10" bottom="30" trailing="0.0"/>
+                                    <color key="baseForegroundColor" systemColor="systemTealColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="questionbtn" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QsQ-mZ-ElJ">
+                                <rect key="frame" x="30" y="563" width="354" height="109.5"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" imagePlacement="trailing" title="자주하는 질문" subtitle="자주하는 질문을 열람합니다." imagePadding="120" titlePadding="10" cornerStyle="medium" titleAlignment="leading">
+                                    <imageReference key="image" image="arrowtriangle.down.circle.fill" catalog="system" symbolScale="large"/>
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.98823523520000001" green="0.99215686319999996" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="18"/>
+                                    <fontDescription key="subtitleFontDescription" type="system" weight="thin" pointSize="15"/>
+                                    <directionalEdgeInsets key="contentInsets" top="30" leading="-10" bottom="30" trailing="0.0"/>
+                                    <color key="baseForegroundColor" systemColor="systemTealColor"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="BZi-Yh-6yA"/>
                         <color key="backgroundColor" red="0.97647058959999999" green="0.97647058959999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="lyn-1k-ofe" firstAttribute="top" secondItem="4sq-PH-kj2" secondAttribute="bottom" constant="30" id="6Sw-46-v6w"/>
+                            <constraint firstAttribute="trailing" secondItem="4sq-PH-kj2" secondAttribute="trailing" constant="50" id="Bzz-Kc-KeI"/>
+                            <constraint firstItem="k9Y-el-oeU" firstAttribute="top" secondItem="BZi-Yh-6yA" secondAttribute="top" id="HkH-5h-Mep"/>
+                            <constraint firstItem="sv9-sz-AOp" firstAttribute="top" secondItem="lyn-1k-ofe" secondAttribute="bottom" constant="40" id="JmD-te-zfK"/>
+                            <constraint firstItem="QsQ-mZ-ElJ" firstAttribute="leading" secondItem="BZi-Yh-6yA" secondAttribute="leading" constant="30" id="Ju6-NJ-fKU"/>
+                            <constraint firstItem="sv9-sz-AOp" firstAttribute="leading" secondItem="BZi-Yh-6yA" secondAttribute="leading" constant="30" id="Ky0-qY-k55"/>
+                            <constraint firstItem="QsQ-mZ-ElJ" firstAttribute="top" secondItem="sv9-sz-AOp" secondAttribute="bottom" constant="40" id="Lr4-kk-EpX"/>
+                            <constraint firstItem="k9Y-el-oeU" firstAttribute="leading" secondItem="BZi-Yh-6yA" secondAttribute="leading" constant="40" id="Suh-wE-OOU"/>
+                            <constraint firstItem="BZi-Yh-6yA" firstAttribute="trailing" secondItem="lyn-1k-ofe" secondAttribute="trailing" constant="30" id="WIV-s2-ivm"/>
+                            <constraint firstItem="BZi-Yh-6yA" firstAttribute="trailing" secondItem="k9Y-el-oeU" secondAttribute="trailing" constant="280" id="YNL-zk-Ltu"/>
+                            <constraint firstItem="4sq-PH-kj2" firstAttribute="top" secondItem="k9Y-el-oeU" secondAttribute="bottom" constant="15" id="d6K-u4-rMV"/>
+                            <constraint firstItem="4sq-PH-kj2" firstAttribute="leading" secondItem="BZi-Yh-6yA" secondAttribute="leading" constant="40" id="dwR-VH-0of"/>
+                            <constraint firstItem="BZi-Yh-6yA" firstAttribute="trailing" secondItem="QsQ-mZ-ElJ" secondAttribute="trailing" constant="30" id="jb6-rk-Jh5"/>
+                            <constraint firstItem="lyn-1k-ofe" firstAttribute="leading" secondItem="BZi-Yh-6yA" secondAttribute="leading" constant="30" id="o1k-R8-BOY"/>
+                            <constraint firstItem="BZi-Yh-6yA" firstAttribute="trailing" secondItem="sv9-sz-AOp" secondAttribute="trailing" constant="30" id="ofV-YK-vUI"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="공지" image="bell.fill" catalog="system" selectedImage="bell.fill" id="0A3-Mt-jpa" userLabel="Item 3"/>
                     <navigationItem key="navigationItem" id="U9d-mJ-PUD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YLF-3g-Q8D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2822" y="55"/>
+            <point key="canvasLocation" x="2821.739130434783" y="54.910714285714285"/>
         </scene>
         <!--식단navigation-->
         <scene sceneID="Oac-lo-nDf">
@@ -349,9 +491,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="arrowtriangle.down.circle.fill" catalog="system" width="32" height="32"/>
         <image name="bell.fill" catalog="system" width="32" height="32"/>
         <image name="checkmark" catalog="system" width="32" height="32"/>
+        <image name="exclamationmark.circle.fill" catalog="system" width="32" height="32"/>
         <image name="fork.knife" catalog="system" width="32" height="32"/>
+        <image name="ladybug.fill" catalog="system" width="32" height="32"/>
+        <image name="pencil" catalog="system" width="32" height="32"/>
         <image name="person.fill" catalog="system" width="32" height="32"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
