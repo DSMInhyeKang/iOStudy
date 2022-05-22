@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FC732E0283A643800D8254F /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC732DF283A643800D8254F /* ComposeViewController.swift */; };
 		3FDA1ADD2810F8AF00853E2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA1ADC2810F8AF00853E2E /* AppDelegate.swift */; };
 		3FDA1ADF2810F8AF00853E2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA1ADE2810F8AF00853E2E /* SceneDelegate.swift */; };
 		3FDA1AE42810F8AF00853E2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDA1AE22810F8AF00853E2E /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FC732DF283A643800D8254F /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		3FDA1AD92810F8AF00853E2E /* KxMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KxMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDA1ADC2810F8AF00853E2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FDA1ADE2810F8AF00853E2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				3FDA1AED2810F8B000853E2E /* Info.plist */,
 				3FDA1AE52810F8AF00853E2E /* KxMemo.xcdatamodeld */,
 				3FDA1AF6281100E000853E2E /* MemoListTableViewController.swift */,
+				3FC732DF283A643800D8254F /* ComposeViewController.swift */,
 			);
 			path = KxMemo;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				3FDA1AE72810F8AF00853E2E /* KxMemo.xcdatamodeld in Sources */,
 				3FDA1ADD2810F8AF00853E2E /* AppDelegate.swift in Sources */,
 				3FDA1AF7281100E000853E2E /* MemoListTableViewController.swift in Sources */,
+				3FC732E0283A643800D8254F /* ComposeViewController.swift in Sources */,
 				3FDA1ADF2810F8AF00853E2E /* SceneDelegate.swift in Sources */,
 				3FDA1AF52810FE4800853E2E /* Model.swift in Sources */,
 			);
