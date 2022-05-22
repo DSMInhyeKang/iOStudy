@@ -12,7 +12,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet var imgView: UIImageView!
     @IBOutlet var backGrondView: UIView!
     @IBOutlet var tableView: UITableView!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         imgView.image = UIImage(named: "prfimage")
@@ -29,12 +29,18 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomTableViewCell
-
+        //
+        //        let cell = tableView.dequeueReusableCell(withIdentifier: "mainCell", for: indexPath)
+        //
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "customTableViewCell", for: indexPath) as! CustomTableViewCell
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "customTableViewCell", for: indexPath) as? CustomTableViewCell else {
+            print("=========")
+            return UITableViewCell() }
         let target = Memo.dummyMemoList[indexPath.row]
+
         cell.cellTitle.text = target.title
         cell.cellContents.text = target.content
-
+        
         return cell
     }
 }
