@@ -15,9 +15,12 @@
 		3F03FFC4283395F100E2BC6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F03FFC2283395F100E2BC6B /* LaunchScreen.storyboard */; };
 		3F03FFCC2833B63200E2BC6B /* dms_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F03FFCB2833B63200E2BC6B /* dms_logo.png */; };
 		3F1D26F128349A7B0039203F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1D26F028349A7B0039203F /* MenuViewController.swift */; };
+		3FD7D638283B5DE600C348B7 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7D637283B5DE600C348B7 /* MyPageViewController.swift */; };
+		E9D5DEFFFE0DB2FB15549442 /* Pods_DMSChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518C8B6E3E679476AD26E0E5 /* Pods_DMSChallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1467C21591B67E51172BC120 /* Pods-DMSChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMSChallenge.release.xcconfig"; path = "Target Support Files/Pods-DMSChallenge/Pods-DMSChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		3F03FFB4283395F000E2BC6B /* DMSChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMSChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F03FFB7283395F000E2BC6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F03FFB9283395F000E2BC6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +31,9 @@
 		3F03FFC5283395F100E2BC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F03FFCB2833B63200E2BC6B /* dms_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dms_logo.png; sourceTree = "<group>"; };
 		3F1D26F028349A7B0039203F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3FD7D637283B5DE600C348B7 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		518C8B6E3E679476AD26E0E5 /* Pods_DMSChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMSChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		807471B3FBF91C0F5DEF9CB2 /* Pods-DMSChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMSChallenge.debug.xcconfig"; path = "Target Support Files/Pods-DMSChallenge/Pods-DMSChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9D5DEFFFE0DB2FB15549442 /* Pods_DMSChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +53,8 @@
 			children = (
 				3F03FFB6283395F000E2BC6B /* DMSChallenge */,
 				3F03FFB5283395F000E2BC6B /* Products */,
+				7896F7CD1A5E9B044424C459 /* Pods */,
+				7FCA4A6D37C82349C1B486FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,12 +74,30 @@
 				3F03FFBB283395F000E2BC6B /* ViewController.swift */,
 				3F03FFBD283395F000E2BC6B /* Main.storyboard */,
 				3F1D26F028349A7B0039203F /* MenuViewController.swift */,
+				3FD7D637283B5DE600C348B7 /* MyPageViewController.swift */,
 				3F03FFC0283395F100E2BC6B /* Assets.xcassets */,
 				3F03FFCB2833B63200E2BC6B /* dms_logo.png */,
 				3F03FFC2283395F100E2BC6B /* LaunchScreen.storyboard */,
 				3F03FFC5283395F100E2BC6B /* Info.plist */,
 			);
 			path = DMSChallenge;
+			sourceTree = "<group>";
+		};
+		7896F7CD1A5E9B044424C459 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				807471B3FBF91C0F5DEF9CB2 /* Pods-DMSChallenge.debug.xcconfig */,
+				1467C21591B67E51172BC120 /* Pods-DMSChallenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7FCA4A6D37C82349C1B486FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				518C8B6E3E679476AD26E0E5 /* Pods_DMSChallenge.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F03FFC8283395F100E2BC6B /* Build configuration list for PBXNativeTarget "DMSChallenge" */;
 			buildPhases = (
+				E3A2E2F72BDD3C891B4611FE /* [CP] Check Pods Manifest.lock */,
 				3F03FFB0283395F000E2BC6B /* Sources */,
 				3F03FFB1283395F000E2BC6B /* Frameworks */,
 				3F03FFB2283395F000E2BC6B /* Resources */,
+				384B72FBF47C7168AD588E4E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,11 +169,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		384B72FBF47C7168AD588E4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DMSChallenge/Pods-DMSChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DMSChallenge/Pods-DMSChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DMSChallenge/Pods-DMSChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3A2E2F72BDD3C891B4611FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DMSChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F03FFB0283395F000E2BC6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD7D638283B5DE600C348B7 /* MyPageViewController.swift in Sources */,
 				3F03FFBC283395F000E2BC6B /* ViewController.swift in Sources */,
 				3F03FFB8283395F000E2BC6B /* AppDelegate.swift in Sources */,
 				3F03FFBA283395F000E2BC6B /* SceneDelegate.swift in Sources */,
@@ -290,6 +362,7 @@
 		};
 		3F03FFC9283395F100E2BC6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 807471B3FBF91C0F5DEF9CB2 /* Pods-DMSChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,6 +393,7 @@
 		};
 		3F03FFCA283395F100E2BC6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1467C21591B67E51172BC120 /* Pods-DMSChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
