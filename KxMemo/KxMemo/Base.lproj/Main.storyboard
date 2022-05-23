@@ -88,10 +88,21 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="새 메모" id="DC0-Ep-u9c">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="2lu-Fl-37b"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="X1K-Lt-ULv"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="2lu-Fl-37b">
+                            <connections>
+                                <action selector="close:" destination="1QQ-hy-3Nx" id="zgh-jm-oii"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="X1K-Lt-ULv">
+                            <connections>
+                                <action selector="save:" destination="1QQ-hy-3Nx" id="B0i-h1-7t5"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="memoTextView" destination="oUd-S3-a7D" id="BUA-Lv-SOu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nKz-Iq-LaD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
