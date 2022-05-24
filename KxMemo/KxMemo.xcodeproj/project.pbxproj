@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3FC732E0283A643800D8254F /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC732DF283A643800D8254F /* ComposeViewController.swift */; };
 		3FD8B295283BC7D4004E0AAF /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD8B294283BC7D4004E0AAF /* UIViewController+Alert.swift */; };
+		3FD8B29B283D16AF004E0AAF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD8B29A283D16AF004E0AAF /* DetailViewController.swift */; };
 		3FDA1ADD2810F8AF00853E2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA1ADC2810F8AF00853E2E /* AppDelegate.swift */; };
 		3FDA1ADF2810F8AF00853E2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA1ADE2810F8AF00853E2E /* SceneDelegate.swift */; };
 		3FDA1AE42810F8AF00853E2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDA1AE22810F8AF00853E2E /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		3FC732DF283A643800D8254F /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		3FD8B294283BC7D4004E0AAF /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		3FD8B29A283D16AF004E0AAF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3FDA1AD92810F8AF00853E2E /* KxMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KxMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDA1ADC2810F8AF00853E2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FDA1ADE2810F8AF00853E2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				3FDA1AF6281100E000853E2E /* MemoListTableViewController.swift */,
 				3FC732DF283A643800D8254F /* ComposeViewController.swift */,
 				3FD8B294283BC7D4004E0AAF /* UIViewController+Alert.swift */,
+				3FD8B29A283D16AF004E0AAF /* DetailViewController.swift */,
 			);
 			path = KxMemo;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				3FDA1ADF2810F8AF00853E2E /* SceneDelegate.swift in Sources */,
 				3FDA1AF52810FE4800853E2E /* Model.swift in Sources */,
 				3FD8B295283BC7D4004E0AAF /* UIViewController+Alert.swift in Sources */,
+				3FD8B29B283D16AF004E0AAF /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
