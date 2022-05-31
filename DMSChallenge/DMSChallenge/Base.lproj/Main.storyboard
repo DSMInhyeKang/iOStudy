@@ -221,7 +221,7 @@
                                         <color key="textColor" systemColor="systemTealColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="C7L-y3-epK">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="C7L-y3-epK">
                                         <rect key="frame" x="20" y="46" width="314" height="116"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <color key="textColor" systemColor="labelColor"/>
@@ -249,7 +249,7 @@
                                         <color key="textColor" systemColor="systemTealColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XKM-Ty-KyA">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XKM-Ty-KyA">
                                         <rect key="frame" x="20" y="45.5" width="314" height="116.5"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <color key="textColor" systemColor="labelColor"/>
@@ -278,7 +278,7 @@
                                         <color key="textColor" systemColor="systemTealColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PgH-mI-EaM">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="breakfastTextView" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PgH-mI-EaM">
                                         <rect key="frame" x="20" y="45.5" width="314" height="116.5"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <color key="textColor" systemColor="labelColor"/>
@@ -315,8 +315,11 @@
                     <tabBarItem key="tabBarItem" title="식단" image="fork.knife" catalog="system" selectedImage="fork.knife" id="lNL-fR-qV8"/>
                     <navigationItem key="navigationItem" title="식단표" id="Eqa-DU-KH0"/>
                     <connections>
+                        <outlet property="breakfastTextView" destination="PgH-mI-EaM" id="e2I-mU-c37"/>
                         <outlet property="breakfastView" destination="E1P-xQ-8X3" id="7yc-m3-gS4"/>
+                        <outlet property="dinnerTextView" destination="XKM-Ty-KyA" id="ity-5l-AaD"/>
                         <outlet property="dinnerView" destination="P0l-RW-Y5e" id="crD-W1-WVC"/>
+                        <outlet property="lunchTextView" destination="C7L-y3-epK" id="eCr-Aj-cRk"/>
                         <outlet property="lunchView" destination="EyK-ey-yDZ" id="dQp-cQ-o1d"/>
                     </connections>
                 </viewController>
@@ -504,14 +507,14 @@
         </scene>
     </scenes>
     <resources>
-        <image name="arrowtriangle.down.circle.fill" catalog="system" width="32" height="32"/>
-        <image name="bell.fill" catalog="system" width="32" height="32"/>
-        <image name="checkmark" catalog="system" width="32" height="32"/>
-        <image name="exclamationmark.circle.fill" catalog="system" width="32" height="32"/>
-        <image name="fork.knife" catalog="system" width="32" height="32"/>
-        <image name="ladybug.fill" catalog="system" width="32" height="32"/>
-        <image name="pencil" catalog="system" width="32" height="32"/>
-        <image name="person.fill" catalog="system" width="32" height="32"/>
+        <image name="arrowtriangle.down.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="bell.fill" catalog="system" width="128" height="124"/>
+        <image name="checkmark" catalog="system" width="128" height="114"/>
+        <image name="exclamationmark.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="fork.knife" catalog="system" width="92" height="128"/>
+        <image name="ladybug.fill" catalog="system" width="128" height="128"/>
+        <image name="pencil" catalog="system" width="128" height="113"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

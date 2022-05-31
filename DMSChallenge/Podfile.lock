@@ -1,0 +1,16 @@
+PODS:
+  - SPIndicator (1.6.4)
+
+DEPENDENCIES:
+  - SPIndicator
+
+SPEC REPOS:
+  trunk:
+    - SPIndicator
+
+SPEC CHECKSUMS:
+  SPIndicator: 93e0a4fb23de51294ac48e874c0f081a5e293e4f
+
+PODFILE CHECKSUM: 31065dac3e8534c1a468c26a51f9505af719bef4
+
+COCOAPODS: 1.11.3
