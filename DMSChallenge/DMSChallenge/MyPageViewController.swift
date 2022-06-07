@@ -8,7 +8,9 @@
 import UIKit
 
 class MyPageViewController: UIViewController {
-
+    @IBOutlet weak var meritsView: UIView!
+    @IBOutlet weak var demeritsView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
