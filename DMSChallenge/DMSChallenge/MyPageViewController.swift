@@ -10,11 +10,17 @@ import UIKit
 class MyPageViewController: UIViewController {
     @IBOutlet weak var meritsView: UIView!
     @IBOutlet weak var demeritsView: UIView!
+    @IBOutlet weak var messageLabel: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        meritsView.layer.cornerRadius = 20
+        demeritsView.layer.cornerRadius = 20
+        self.messageLabel.clipsToBounds = true
+        self.messageLabel.layer.cornerRadius = 18
+    
     }
     
 
