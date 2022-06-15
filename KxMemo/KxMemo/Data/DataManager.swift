@@ -18,7 +18,7 @@ class DataManager {
         return persistentContainer.viewContext
     }
     
-    var memoList = [Memo]
+    var memoList = [Memo]()
     func fetchMemo() {
         let request: NSFetchRequest<Memo> = Memo.fetchRequest()
         
@@ -30,7 +30,7 @@ class DataManager {
         } catch {
             print(error)
         }
-        
+       
     }
     
     
