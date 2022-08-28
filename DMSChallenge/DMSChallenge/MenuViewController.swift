@@ -20,7 +20,7 @@ class MenuViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         getNowDate()
-        getUsers()
+        getMeals()
 //        SPIndicator.present(title: "Error", message: "Try Again", preset: .error)
         breakfastView.layer.cornerRadius = 20
         lunchView.layer.cornerRadius = 20
@@ -36,7 +36,7 @@ class MenuViewController: UIViewController {
         currentDate = dateFormatter.string(from: date)
     }
     
-    private func getUsers() {
+    private func getMeals() {
         let url = "https://api.dsm-dms.com/meal/" + currentDate
         let session = URLSession.shared
         guard let requestURL = URL(string: url) else {return}
